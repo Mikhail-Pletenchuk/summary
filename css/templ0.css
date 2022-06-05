@@ -1,0 +1,71 @@
+.list {
+	/* background: lightcoral url("../img/1.png") no-repeat 50% -28px;
+	background-size: 1180px auto;
+	min-height: 2600px; */
+
+	border: 2px solid;
+	padding: 60px;
+	font-size: 22px;
+	/* color: green; */
+}
+
+/*  */
+.fio {
+	/* min-height: 550px; */
+	/* border: 1px solid; */
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.photo {
+	padding: 5px;
+	/* border: 1px solid; */
+}
+
+.photo img {
+	width: 100%;
+	height: auto;
+}
+
+.fio div {
+	/* border: 1px solid; */
+	/* display: inline; */
+	width: 300px;
+}
+
+/* .phone {
+	padding-left: 10px;
+	position: relative;
+}
+
+.phone::after {
+	content: "";
+	position: absolute;
+	left: 0;
+	top: 0;
+	background: url("../img/icons/lock.svg");
+} */
+
+/* Секция с личными данными */
+.personal {
+	/* min-height: 360px; */
+	/* border: 1px solid; */
+}
+
+/*  */
+.education {
+	min-height: 340px;
+	/* border: 1px solid; */
+}
+
+/*  */
+.experiences {
+	/* min-height: 560px; */
+	/* border: 1px solid; */
+}
+
+/*  */
+.other {
+	min-height: 330px;
+	/* border: 1px solid; */
+}

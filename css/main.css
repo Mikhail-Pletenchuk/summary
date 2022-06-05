@@ -1,0 +1,149 @@
+@charset "UTF-8";
+main {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+h3 {
+  font-weight: 600;
+}
+
+.navbar-brand {
+  text-transform: uppercase;
+}
+
+.apply_sample {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.errors {
+  color: red;
+}
+
+.summary p {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.summary a {
+  display: inline-block;
+  width: 400px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+/* Модальное окно*/
+.modal {
+  position: fixed;
+  background-color: #f1f1f1;
+  color: #000000;
+  -webkit-box-shadow: 0 30px 50px rgba(0, 0, 0, 0.7);
+          box-shadow: 0 30px 50px rgba(0, 0, 0, 0.7);
+  top: 120px;
+  left: 50%;
+  display: none;
+  width: 400px;
+  height: auto;
+  margin-left: -230px;
+  padding: 50px 50px;
+}
+
+.modal-close {
+  position: absolute;
+  top: 5px;
+  right: 5px;
+  width: 22px;
+  height: 22px;
+  background-color: transparent;
+  border: 0;
+  cursor: pointer;
+}
+
+.modal-close::before,
+.modal-close::after {
+  content: "";
+  position: absolute;
+  top: 10px;
+  left: 2px;
+  width: 19px;
+  height: 3px;
+  background: #d0d0d0;
+}
+
+.modal-close::before {
+  -webkit-transform: rotate(45deg);
+          transform: rotate(45deg);
+}
+
+.modal-close::after {
+  -webkit-transform: rotate(-45deg);
+          transform: rotate(-45deg);
+}
+
+.modal-description {
+  margin: 0;
+  margin-bottom: 10px;
+}
+
+.modal-show {
+  display: block;
+  -webkit-animation: bounce 0.6s;
+          animation: bounce 0.6s;
+}
+
+@-webkit-keyframes bounce {
+  0% {
+    -webkit-transform: translateY(-2000px);
+            transform: translateY(-2000px);
+  }
+  70% {
+    -webkit-transform: translateY(30px);
+            transform: translateY(30px);
+  }
+  90% {
+    -webkit-transform: translateY(-10px);
+            transform: translateY(-10px);
+  }
+  100% {
+    -webkit-transform: translateY(0);
+            transform: translateY(0);
+  }
+}
+
+@keyframes bounce {
+  0% {
+    -webkit-transform: translateY(-2000px);
+            transform: translateY(-2000px);
+  }
+  70% {
+    -webkit-transform: translateY(30px);
+            transform: translateY(30px);
+  }
+  90% {
+    -webkit-transform: translateY(-10px);
+            transform: translateY(-10px);
+  }
+  100% {
+    -webkit-transform: translateY(0);
+            transform: translateY(0);
+  }
+}
+
+.about-content-box-wrapper {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.about-content__box {
+  display: none;
+}
+
+.about-content__box:first-child {
+  display: block;
+}
